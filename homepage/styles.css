@@ -1,0 +1,220 @@
+.images
+{
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.row
+{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.row.row-resume
+{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.row.row-resume.row-bottom
+{
+    margin-bottom:1em;
+}
+
+/* Top Navigation Bar */
+.topnav
+{
+    padding: 1.25em 0 0 0;
+}
+.links
+{
+    text-align:right;
+}
+.links a
+{
+    margin-right:1em;
+}
+
+.exp-bottom
+{
+    margin-bottom:2em;
+}
+
+/* Margin between titles */
+.titles
+{
+    margin-top:auto;
+    margin-bottom:auto;
+}
+
+.separator
+{
+    margin-top:3em;
+}
+
+/*Portfolio page css */
+.portfolio-header
+{
+    text-align:center;
+}
+
+.portfolio-box
+{
+    text-align:center;
+    margin:0;
+    padding:2em 0 2em 0;
+    max-width:100%;
+}
+
+#project_1
+{
+    background:#7dcc93;
+}
+
+#project_2
+{
+    background:#f76160;
+}
+
+#project_3
+{
+    background:#f8c687;
+}
+
+.portfolio-desc
+{
+    margin:3em;
+}
+.portfolio-desc p
+{
+    margin-top:2em;
+}
+
+/*Portfolio page css */
+.blog-header
+{
+    text-align:center;
+}
+
+.blog-box
+{
+    text-align:center;
+    padding:2em 0 2em 0;
+    max-width:100%;
+}
+
+.blog-desc
+{
+    margin:2em 10em 2em 10em;
+    text-align:left;
+}
+.blog-desc p
+{
+    margin-top:2em;
+}
+
+/* Social media bar */
+#twitter
+{
+    color: #1DA1F2;
+}
+
+#linkedin
+{
+    color: #4875B4;
+}
+
+#github
+{
+    text-decoration:none;
+    border:none;
+    color: black;
+}
+
+#email
+{
+    height: 32px;
+    width: 28px;
+    vertical-align: top;
+}
+
+
+
+
+
+/* MEDIA QUERIES */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px)
+{
+    .bottomnav
+    {
+        display:flex;
+        justify-content:space-around;
+    }
+
+    .blog-desc
+    {
+        margin:1em 3em 1em 3em;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px)
+{
+    .bottomnav
+    {
+        display:flex;
+        justify-content:center;
+    }
+    .fa-2x
+    {
+        margin: 0 5px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px)
+{
+    .bottomnav
+    {
+        display:flex;
+        justify-content:center;
+    }
+    .fa-2x
+    {
+        margin: 0 5px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px)
+{
+    .bottomnav
+    {
+        display:flex;
+        justify-content:center;
+    }
+    .fa-2x
+    {
+        margin: 0 5px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px)
+{
+    .bottomnav
+    {
+        display:flex;
+        justify-content:center;
+    }
+    .fa-2x
+    {
+        margin: 0 5px;
+    }
+    .portfolio-desc
+    {
+        margin:3em 30em 3em 30em;
+    }
+}
